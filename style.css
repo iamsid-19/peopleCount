@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(21, 19, 19);
+    width: 100%;
+}
+.people{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 25rem;
+    width: 25rem;
+    background-color:rgba(161, 161, 161, 0.081);
+    border: 2px solid rgb(114, 113, 113);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: .5s;
+    
+}
+.people:hover{
+    box-shadow: 0px 5px 20px whitesmoke;
+
+}
+.people h1{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(233, 232, 232);
+    margin-bottom: 1rem;
+}
+.people h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(233, 232, 232);
+
+}
+.people .btn{
+    display: inline-block;
+    width: 90%;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border: none;
+ font-size: 1.1rem;
+color: black;
+}
+#increment-btn{
+ background-color: #1ED760;
+}
+.people p{
+    font-size: 1.2rem;
+    color: rgb(233, 232, 232);
+    
+    
+}
+@media (max-width:380px) {
+   .people{
+    width: 18rem;
+    height: 18rem;
+   } 
+   .people h1{
+    font-size: 1.8rem;
+   }
+   .people h2{
+    font-size: 2rem;
+   }
+   .people .btn{
+    font-size: 1rem;
+
+    padding: 8px 18px;
+   }
+   .people p{
+    font-size: 1rem;
+   }
+
+
+}
+@media (max-width:280px) {
+    .people{
+     width: 15rem;
+     height: 15rem;
+    } 
+    .people h1{
+     font-size: 1.5rem;
+    }
+    .people h2{
+        font-size: 1.8rem;
+    }
+    .people .btn{
+     font-size: 1rem;
+     padding: 6px 16px;
+    }
+    .people p{
+     font-size: 1rem;
+    }
+ 
+ 
+ }
