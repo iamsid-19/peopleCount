@@ -60,14 +60,13 @@ color: black;
     color: rgb(233, 232, 232);
     
     
-}
-@media (max-width:380px) {
+}@media (max-width:450px) {
    .people{
-    width: 17rem;
-    height: 18rem;
+    width: 16rem;
+    height: 16rem;
    } 
    .people h1{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
    }
    .people h2{
     font-size: 2rem;
@@ -85,14 +84,14 @@ color: black;
 }
 @media (max-width:280px) {
     .people{
-     width: 15rem;
-     height: 15rem;
+     width: 14rem;
+     height: 14rem;
     } 
     .people h1{
-     font-size: 1.4rem;
+     font-size: 1.2rem;
     }
     .people h2{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .people .btn{
      font-size: 1rem;
@@ -104,3 +103,4 @@ color: black;
  
  
  }
+ 
