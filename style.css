@@ -63,11 +63,11 @@ color: black;
 }
 @media (max-width:380px) {
    .people{
-    width: 18rem;
+    width: 17rem;
     height: 18rem;
    } 
    .people h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
    }
    .people h2{
     font-size: 2rem;
@@ -89,7 +89,7 @@ color: black;
      height: 15rem;
     } 
     .people h1{
-     font-size: 1.5rem;
+     font-size: 1.4rem;
     }
     .people h2{
         font-size: 1.8rem;
